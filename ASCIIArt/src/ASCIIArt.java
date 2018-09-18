@@ -15,3 +15,37 @@
  */
 
 // YOUR CODE GOES HERE :)
+
+	public class ASCIIArt{
+
+		public static void ears() {
+			
+			System.out.println("     ^----^");
+		}
+		public static void face() {
+			System.out.println("   ( 0 oo 0 )");
+		}
+		
+		public static void body() {
+			System.out.println("   ( >    < )");
+			System.out.println ("   (        )~@");
+		}
+		public static void legs() {
+			System.out.println("      v  v ");
+		} 
+		public static void ground() {
+			System.out.println("//~~~~~~~~~~~~~// \n");
+		}
+		public static void main(String[] args) {
+			System.out.println("\"This is a Pig!\" \n");
+			ears();
+			face();
+			body();
+			legs();
+			ground();
+			
+		}
+		
+	}
+		
+		
