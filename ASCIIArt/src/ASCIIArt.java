@@ -17,12 +17,16 @@
 // YOUR CODE GOES HERE :)
 
 	public class ASCIIArt{
+		
+		
 		public static void bubblet() {
 			System.out.println("\t   ==============");
 		}
+		
 		public static void bubblem() {
 			System.out.println("\t   \\  Helloo~   /");
 		}
+		
 		public static void bubbleb() {
 			System.out.println("\t    \\__________/");
 		}
@@ -31,6 +35,7 @@
 			
 			System.out.println("     ^----^      /");
 		}
+		
 		public static void face() {
 			System.out.println("   ( 0 oo 0 )  _/");
 		}
@@ -39,12 +44,15 @@
 			System.out.println("   ( >    < )");
 			System.out.println ("   (        )~@");
 		}
+		
 		public static void legs() {
 			System.out.println("      v  v ");
 		} 
+		
 		public static void ground() {
 			System.out.println("//~~~~~~~~~~~~~// \n");
 		}
+		
 		public static void main(String[] args) {
 			System.out.println("\"This is a pig....\" \n");
 			bubblet();
